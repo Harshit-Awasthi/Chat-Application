@@ -1,0 +1,32 @@
+/* Additional styling for chat app */
+.chat-container {
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  
+  .chat-messages {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .chat-message {
+    padding: 5px;
+    margin: 5px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+  }
+  
+  .chat-message-sender {
+    font-weight: bold;
+  }
+  
+  /* Adjust styles for chat input area */
+  #chatBox .form-control {
+    border-radius: 0;
+  }
+  
+  #btnSendMsg {
+    border-radius: 0;
+  }
+  

@@ -7,7 +7,7 @@ const server = http.createServer(app)
 const io = socketio(server)
 
 let users = {
-  arnav: 'agag123',
+  harshit: 'harshit',
 }
 let socketMap = {}
 
